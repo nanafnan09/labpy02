@@ -64,7 +64,7 @@ if total_harga is not None:
 
 ```
 
-#Penjelasan Terkait Kode Pemrograman Ticket Bioskop
+# Penjelasan Terkait Kode Pemrograman Ticket Bioskop
 
 # 1.Definisi Fungsi
 ```
@@ -297,7 +297,7 @@ Bagian ini menangani kesalahan jika pengguna memasukkan nilai yang tidak dapat d
 # FLOWCHART KALKULATOR
 ![Foto](https://github.com/nanafnan09/flowchart-kalkulator-tiket/blob/b929e9a616af93d79512daa4cda628641e21a634/kalkulator%20flowchart.png)
 
-#PENJELASAN FLOWCHART KALKULATOR
+# PENJELASAN FLOWCHART KALKULATOR
 `Mulai:` Proses dimulai
 `Masukkan angka pertama:` Pengguna diminta memasukkan angka pertama yang akan digunakan dalam operasi aritmatika.
 `Masukkan angka kedua:` Pengguna memasukkan angka kedua.
