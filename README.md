@@ -1,8 +1,10 @@
 # Pratikum 2
 
-Nama:Afnan Dika Ramadhan
+Nama: Afnan Dika Ramadhan
 
-NIM 312410518
+NIM: 312410518
+
+Kelas: TI24.A5
 
 Mata Kuliah :Bahasa Pemrograman
 
@@ -291,3 +293,39 @@ Bagian ini menangani kesalahan jika pengguna memasukkan nilai yang tidak dapat d
 # Hasil Dari Kode Pemrograman (`/`)
 ![Foto](https://github.com/nanafnan09/flowchart-kalkulator-tiket/blob/b929e9a616af93d79512daa4cda628641e21a634/Coding%20(~).png)
 
+
+# FLOWCHART KALKULATOR
+![Foto](https://github.com/nanafnan09/flowchart-kalkulator-tiket/blob/b929e9a616af93d79512daa4cda628641e21a634/kalkulator%20flowchart.png)
+
+#PENJELASAN FLOWCHART KALKULATOR
+`Mulai:` Proses dimulai
+`Masukkan angka pertama:` Pengguna diminta memasukkan angka pertama yang akan digunakan dalam operasi aritmatika.
+`Masukkan angka kedua:` Pengguna memasukkan angka kedua.
+Inputkan Operator (`+, -, *, /`): Pengguna memilih operator aritmatika yang ingin digunakan untuk melakukan perhitungan.
+
+`Apakah operator = +?:`
+Jika YA: Dilakukan operasi penjumlahan antara angka pertama dan angka kedua, yaitu hasil = angka pertama + angka kedua.
+Jika TIDAK: Lanjut ke keputusan berikutnya.
+
+`Apakah operator = -?:`
+Jika YA: Dilakukan operasi pengurangan antara angka pertama dan angka kedua, yaitu hasil = angka pertama - angka kedua.
+Jika TIDAK: Lanjut ke keputusan berikutnya.
+
+`Apakah operator = *?:`
+Jika YA: Dilakukan operasi perkalian antara angka pertama dan angka kedua, yaitu hasil = angka pertama × angka kedua.
+Jika TIDAK: Lanjut ke keputusan berikutnya.
+
+`Apakah operator = /?:`
+jika YA: Cek apakah angka kedua bernilai 0.
+Jika YA: Menghasilkan pesan error "Error: pembagian dengan nol tidak diperbolehkan".
+Jika TIDAK: Dilakukan operasi pembagian antara angka pertama dan angka kedua, yaitu hasil = angka pertama / angka kedua.
+
+`Apakah operator valid?:`
+Jika TIDAK: Menghasilkan pesan error "Error: operator tidak valid".
+Jika YA: Lanjut ke langkah output.
+
+`Output Hasil: `
+Menampilkan hasil perhitungan yang telah dilakukan.
+
+`Selesai` 
+Proses SELESAI
