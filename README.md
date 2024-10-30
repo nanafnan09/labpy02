@@ -147,5 +147,5 @@ Jika `total_harga` tidak bernilai `None`, program mencetak total harga yang haru
 # HASIL DARI KODE PEMROGRAMAN TIKET BIOSKOP
 ![Foto](https://github.com/nanafnan09/flowchart-kalkulator-tiket/blob/cb4b9ab4afa91b5f5e5652395e2285a302984cca/Coding%20Ticket.png)
 
-#Flowchart Tiket Bioskop
-
+# Flowchart Tiket Bioskop
+![Foto](https://github.com/nanafnan09/flowchart-kalkulator-tiket/blob/b929e9a616af93d79512daa4cda628641e21a634/flowchart%20tiket.png)
