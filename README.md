@@ -166,3 +166,117 @@ Perhitungan Total Harga: Total harga dihitung dengan rumus:
 Output total harga: Menampilkan hasil akhir total harga tiket yang harus dibayar oleh pengguna.
 Selesai:Proses Selesai
 
+# Kode Pemrograman Kalkulator Sederhana
+```
+Python
+# Fungsi untuk melakukan operasi aritmatika
+def kalkulator(angka1, angka2, operator):
+    if operator == '+':
+        return angka1 + angka2
+    elif operator == '-':
+        return angka1 - angka2
+    elif operator == '*':
+        return angka1 * angka2
+    elif operator == '/':
+        if angka2 != 0:
+            return angka1 / angka2
+        else:
+            return "Error: Pembagian dengan nol tidak diperbolehkan."
+    else:
+        return "Error: Operator tidak valid. Gunakan +, -, *, atau /."
+
+# Meminta input dari pengguna
+try:
+    angka1 = float(input("Masukkan angka pertama: "))
+    angka2 = float(input("Masukkan angka kedua: "))
+    operator = input("Masukkan operator (+, -, *, /): ")
+
+    # Menghitung hasil
+    hasil = kalkulator(angka1, angka2, operator)
+
+    # Menampilkan hasil
+    print(f"Hasil: {hasil}")
+
+except ValueError:
+    print("Error: Masukkan angka yang valid.")
+```
+# Penjelasan Terkait Kode Pemrograman Diatas
+# 1. Fungsi Kalkulator
+```
+python
+def kalkulator(angka1, angka2, operator):
+```
+Fungsi `kalkulator` didefinisikan dengan tiga parameter: `angka1`, `angka2`, dan `operator`. Fungsi ini akan mengembalikan hasil dari operasi aritmatika berdasarkan operator yang
+diberikan.
+
+# Operasi Aritmatika
+# Penjumlahan (`+`):
+```
+python
+if operator == '+':
+    return angka1 + angka2
+```
+Jika operator adalah `+`, maka fungsi akan mengembalikan hasil penjumlahan `angka1` dan `angka2`.
+
+# Pengurangan(`-`):
+```
+python
+elif operator == '-':
+    return angka1 - angka2
+```
+Jika operator adalah `-`, maka fungsi akan mengembalikan hasil pengurangan.
+
+# Perkalian (`*`):
+```
+python
+elif operator == '*':
+    return angka1 * angka2
+```
+Jika operator adalah `*`, maka fungsi akan mengembalikan hasil perkalian.
+
+# Pembagian (`/`):
+```
+python
+elif operator == '/':
+    if angka2 != 0:
+        return angka1 / angka2
+    else:
+        return "Error: Pembagian dengan nol tidak diperbolehkan."
+```
+Jika operator adalah `/`, fungsi akan memeriksa apakah angka2 tidak sama dengan nol. Jika tidak, maka akan mengembalikan hasil pembagian; jika ya, akan mengembalikan pesan kesalahan.
+
+# Operator Tidak Valid:
+```
+python
+else:
+    return "Error: Operator tidak valid. Gunakan +, -, *, atau /."
+```
+Jika operator yang dimasukkan tidak valid, fungsi akan mengembalikan pesan kesalahan.
+
+# Input dari Pengguna
+```
+python
+try:
+    angka1 = float(input("Masukkan angka pertama: "))
+    angka2 = float(input("Masukkan angka kedua: "))
+    operator = input("Masukkan operator (+, -, *, /): ")
+```
+Bagian ini meminta pengguna untuk memasukkan dua angka dan satu operator. Fungsi `input()` digunakan untuk mengambil input dari pengguna, dan `float()` digunakan untuk mengonversi input menjadi tipe data float.
+
+# Menghitung dan Menampilkan Hasil
+```
+python
+hasil = kalkulator(angka1, angka2, operator)
+print(f"Hasil: {hasil}")
+```
+Setelah mendapatkan input dari pengguna, program memanggil fungsi `kalkulator` dengan argumen yang telah dimasukkan oleh pengguna. Hasilnya kemudian ditampilkan di layar.
+
+# Penanganan Kesalahan
+```
+python
+except ValueError:
+    print("Error: Masukkan angka yang valid.")
+```
+Bagian ini menangani kesalahan jika pengguna memasukkan nilai yang tidak dapat dikonversi menjadi float (misalnya huruf atau karakter non-numerik). Jika terjadi kesalahan, program akan menampilkan pesan kesalahan yang sesuai.
+
+# Flowchart Kalkulator
