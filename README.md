@@ -144,6 +144,7 @@ if total_harga is not None:
 ```
 Jika `total_harga` tidak bernilai `None`, program mencetak total harga yang harus dibayar dengan format dua desimal.
 
-#Flowchart Tiket
+# HASIL DARI KODE PEMROGRAMAN TIKET BIOSKOP
+
 
 
