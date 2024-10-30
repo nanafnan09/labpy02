@@ -281,3 +281,6 @@ Bagian ini menangani kesalahan jika pengguna memasukkan nilai yang tidak dapat d
 
 # Hasil Dari Kode Pemrograman (`+`)
 ![Foto](https://github.com/nanafnan09/flowchart-kalkulator-tiket/blob/b929e9a616af93d79512daa4cda628641e21a634/Codingan%20(%2B).png)
+
+# Hasil Dari Kode Pemrograman (`-`)
+![Foto](https://github.com/nanafnan09/flowchart-kalkulator-tiket/blob/b929e9a616af93d79512daa4cda628641e21a634/Codingan%20(-).png)
