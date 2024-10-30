@@ -1,4 +1,4 @@
-# LabPY02
+# Pratikum 2
 
 Nama:Afnan Dika Ramadhan
 
@@ -145,6 +145,7 @@ if total_harga is not None:
 Jika `total_harga` tidak bernilai `None`, program mencetak total harga yang harus dibayar dengan format dua desimal.
 
 # HASIL DARI KODE PEMROGRAMAN TIKET BIOSKOP
+![Foto](https://github.com/nanafnan09/flowchart-kalkulator-tiket/blob/cb4b9ab4afa91b5f5e5652395e2285a302984cca/Coding%20Ticket.png)
 
-
+#Flowchart Tiket Bioskop
 
