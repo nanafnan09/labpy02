@@ -149,3 +149,20 @@ Jika `total_harga` tidak bernilai `None`, program mencetak total harga yang haru
 
 # Flowchart Tiket Bioskop
 ![Foto](https://github.com/nanafnan09/flowchart-kalkulator-tiket/blob/b929e9a616af93d79512daa4cda628641e21a634/flowchart%20tiket.png)
+
+Penjelasan Terkait Flowchart Diatas:
+1.Start:Proses Dimulai
+2.Input tipe tiket: Pengguna memasukkan tipe tiket yang ingin dibeli, yang bisa berupa `Reguler` atau `VIP`.
+3.Input status member: Pengguna juga diminta untuk memasukkan status keanggotaan, apakah `YA` (member) atau `TIDAK` (bukan member).
+Apakah Tiket Reguler?
+Jika YA:Harga tiket ditetapkan sebesar `50,000`
+Jika TIDAK:Harga tiket ditetapkan sebesar `100,000`
+
+Apakah status member = YA?
+Jika YA: Diskon sebesar 20% diberikan (diskon = 0.2).
+Jika TIDAK: Tidak ada diskon (diskon = 0).
+Perhitungan Total Harga: Total harga dihitung dengan rumus:
+`Total Harga=Harga Tiket×(1−Diskon)`
+Output total harga: Menampilkan hasil akhir total harga tiket yang harus dibayar oleh pengguna.
+Selesai:Proses Selesai
+
