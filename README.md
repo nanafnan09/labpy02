@@ -279,4 +279,5 @@ except ValueError:
 ```
 Bagian ini menangani kesalahan jika pengguna memasukkan nilai yang tidak dapat dikonversi menjadi float (misalnya huruf atau karakter non-numerik). Jika terjadi kesalahan, program akan menampilkan pesan kesalahan yang sesuai.
 
-# Flowchart Kalkulator
+# Hasil Dari Kode Pemrograman (`+`)
+![Foto](https://github.com/nanafnan09/flowchart-kalkulator-tiket/blob/b929e9a616af93d79512daa4cda628641e21a634/Codingan%20(%2B).png)
